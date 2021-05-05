@@ -1,0 +1,12 @@
+F:\VS_Projects\UltimateSearch\OpenUrl\bin\Debug\net5.0-windows\OpenUrl.deps.json
+F:\VS_Projects\UltimateSearch\OpenUrl\bin\Debug\net5.0-windows\OpenUrl.dll
+F:\VS_Projects\UltimateSearch\OpenUrl\bin\Debug\net5.0-windows\ref\OpenUrl.dll
+F:\VS_Projects\UltimateSearch\OpenUrl\bin\Debug\net5.0-windows\OpenUrl.pdb
+F:\VS_Projects\UltimateSearch\OpenUrl\obj\Debug\net5.0-windows\OpenUrl.csprojAssemblyReference.cache
+F:\VS_Projects\UltimateSearch\OpenUrl\obj\Debug\net5.0-windows\OpenUrl.GeneratedMSBuildEditorConfig.editorconfig
+F:\VS_Projects\UltimateSearch\OpenUrl\obj\Debug\net5.0-windows\OpenUrl.AssemblyInfoInputs.cache
+F:\VS_Projects\UltimateSearch\OpenUrl\obj\Debug\net5.0-windows\OpenUrl.AssemblyInfo.cs
+F:\VS_Projects\UltimateSearch\OpenUrl\obj\Debug\net5.0-windows\OpenUrl.csproj.CoreCompileInputs.cache
+F:\VS_Projects\UltimateSearch\OpenUrl\obj\Debug\net5.0-windows\OpenUrl.dll
+F:\VS_Projects\UltimateSearch\OpenUrl\obj\Debug\net5.0-windows\ref\OpenUrl.dll
+F:\VS_Projects\UltimateSearch\OpenUrl\obj\Debug\net5.0-windows\OpenUrl.pdb

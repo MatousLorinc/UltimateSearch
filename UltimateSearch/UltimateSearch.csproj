@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>UltimateSearch_Icon.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <Company>Matouš Lörinc</Company>
+    <Authors>Matouš Lörinc</Authors>
+    <Description>Opens default browser and searches query on selected websites</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>F:\VS_Projects\UltimateSearch\UltimateSearch\UltimateSearch_Documentation.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OpenUrl">
+      <HintPath>..\OpenUrl\bin\Debug\net5.0-windows\OpenUrl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

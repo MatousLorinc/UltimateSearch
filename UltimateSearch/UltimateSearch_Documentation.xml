@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UltimateSearch</name>
+    </assembly>
+    <members>
+        <member name="T:UltimateSearch.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:UltimateSearch.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:UltimateSearch.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="M:UltimateSearch.Config.GetSearchUrl(UltimateSearch.Config.Websites)">
+            <summary>
+            Gets a string from App.config
+            </summary>
+            <param name="website">website name = key in config</param>
+            <returns>empty search query</returns>
+        </member>
+        <member name="M:UltimateSearch.Config.GetSearchBoxPlaceholder">
+            <summary>
+            Gets placeholder text for QueryTextBox
+            </summary>
+            <returns>placeholder text</returns>
+        </member>
+        <member name="F:UltimateSearch.Config.SettingHasChanged">
+            <summary>
+            Indication that user setting has changed in order to prevent unnecessary file saving
+            </summary>
+        </member>
+        <member name="F:UltimateSearch.Config.UserSettingFilename">
+            <summary>
+            file name containg user setting
+            </summary>
+        </member>
+        <member name="P:UltimateSearch.Config.GetFullUserSettingPath">
+            <summary>
+            Gets fullpath to user setting file
+            </summary>
+        </member>
+        <member name="T:UltimateSearch.Config.Websites">
+            <summary>
+            supporter websites
+            </summary>
+        </member>
+        <member name="P:UltimateSearch.Config.SearchGoogle">
+            <summary>
+            user setting to search on google
+            </summary>
+        </member>
+        <member name="P:UltimateSearch.Config.SearchYoutube">
+            <summary>
+            user setting to search on youtube
+            </summary>
+        </member>
+        <member name="P:UltimateSearch.Config.SearchWikipedia">
+            <summary>
+            user setting to search on wikipedia
+            </summary>
+        </member>
+        <member name="P:UltimateSearch.Config.SearchStackoverflow">
+            <summary>
+            user setting to search on stackoverflow
+            </summary>
+        </member>
+        <member name="M:UltimateSearch.Config.SaveConfigToFile">
+            <summary>
+            using Newtonsoft creates and saves json string to file
+            </summary>
+            <returns>Serialized Config class into json</returns>
+        </member>
+        <member name="M:UltimateSearch.Config.LoadConfigFromFile">
+            <summary>
+            using Newtonsoft deserialze user setting json file into Config class instance
+            </summary>
+            <returns>Config instance with current user setting</returns>
+        </member>
+        <member name="T:UltimateSearch.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:UltimateSearch.MainWindow.MainWindowObject_KeyDown(System.Object,System.Windows.Input.KeyEventArgs)">
+            <summary>
+            when user presses enter fire search button click event
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:UltimateSearch.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>
